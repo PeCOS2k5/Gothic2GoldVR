@@ -30,19 +30,18 @@ Gothic II Gold VR is a PC VR mod by **PeCOS2k5**. It renders Gothic II in native
 
 - Windows 10 or 11 (64-bit), a PC VR headset, and two tracked controllers. The game uses a 32-bit OpenXR runtime.
 - A GPU that supports Direct3D 11 and a CPU with AVX2, required by the supported GD3D11 renderer. Allow enough disk space for a separate copy of each game you prepare.
-- **Union Primary Universal**, **Union 1.0m**, and **GD3D11 17.8 rev. SK9** in each VR copy. The launcher checks the required versions. [Union downloads](https://worldofplayers.ru/threads/40376/) · [GD3D11 SK9 release](https://github.com/SaiyansKing/GD3D11/releases/tag/v17.8-rev%27SK9)
+- An internet connection for the first setup. Setup downloads, verifies, and installs **Union Primary Universal**, **Union 1.0m**, and **GD3D11 17.8 rev. SK9** where needed. [Union downloads](https://worldofplayers.ru/threads/40376/) · [GD3D11 SK9 release](https://github.com/SaiyansKing/GD3D11/releases/tag/v17.8-rev%27SK9)
 - A compatible OpenXR runtime. Choose **Virtual Desktop (VDXR)**, **SteamVR**, or **Quest Link / Air Link (SteamVR)** in the launcher. Connect your headset before launching. The Quest Link option uses SteamVR as the OpenXR runtime.
 
 The reference controllers are Meta Quest 3 Touch Plus. The launcher has an OpenXR button mapper for other controllers. Available buttons and axes depend on the controller and runtime.
 
 ## Installation
 
-1. Install the original game for the campaign you want to play. Then download and run **`Setup.exe`** from [Releases](https://github.com/PeCOS2k5/Gothic2GoldVR/releases). Choose an installation location with room for the games you want to use in VR.
-2. Open **Gothic II VR**, select a campaign, and go to **Setup → Prepare VR copy**. The launcher suggests detected Steam and GOG installations. You can also select the folder containing `Data` and `system` yourself.
-3. Use **Setup** to install and verify Union Primary Universal, Union 1.0m, then GD3D11 SK9. When a Union installer asks for a destination, paste the **VR game folder** shown in the launcher.
-4. Choose **VR Runtime**, then click **Save and Launch**. Once in the game, look straight ahead and click the **left thumbstick** to recenter.
+1. Install Gothic II Gold or Archolos through Steam or GOG. Then download and run **`Setup.exe`** from [Releases](https://github.com/PeCOS2k5/Gothic2GoldVR/releases) and choose a destination with room for the VR copies.
+2. Click **Install**. Setup detects the installed games, creates their VR copies in `Games`, and downloads and installs the required patches. Approve the Windows prompt for Union if shown. If detection misses your game, use **Locate installed game** to select its folder containing `Data` and `system`.
+3. When the launcher opens, select your campaign and **VR Runtime**, then click **Save and Launch**. In the game, look straight ahead and click the **left thumbstick** to recenter.
 
-Each prepared game lives in the launcher's `Games` folder. Preparing a VR copy leaves the original installation and its saves in place. If Archolos is missing, its launch button stays disabled until you prepare a valid copy. **Repair VR copy** backs up an incomplete copy and transfers its VR saves into the replacement. Updating or uninstalling the launcher keeps its game copies, settings, and saves.
+The original games and their saves stay in place. If you install another campaign later, select it in the launcher and choose **Setup → Prepare VR copy** to copy it and install its requirements. **Repair VR copy** backs up an incomplete copy and transfers its VR saves. Updating or uninstalling the launcher keeps its game copies, settings, and saves. The **Mods** page includes download links for the optional add-ons.
 
 ## Default Meta Quest 3 controls
 
