@@ -33,7 +33,7 @@ Gothic II Gold VR is a PC VR mod by **PeCOS2k5**. It renders Gothic II in native
 - **Union Primary Universal**, **Union 1.0m**, and **GD3D11 17.8 rev. SK9** in each VR copy. The launcher checks the required versions. [Union downloads](https://worldofplayers.ru/threads/40376/) · [GD3D11 SK9 release](https://github.com/SaiyansKing/GD3D11/releases/tag/v17.8-rev%27SK9)
 - A compatible OpenXR runtime. Choose **Virtual Desktop (VDXR)**, **SteamVR**, or **Quest Link / Air Link (SteamVR)** in the launcher. Connect your headset before launching. The Quest Link option uses SteamVR as the OpenXR runtime.
 
-The reference controllers are Quest Touch. The launcher has an OpenXR button mapper for other controllers. Available buttons and axes depend on the controller and runtime.
+The reference controllers are Meta Quest 3 Touch Plus. The launcher has an OpenXR button mapper for other controllers. Available buttons and axes depend on the controller and runtime.
 
 ## Installation
 
@@ -44,9 +44,11 @@ The reference controllers are Quest Touch. The launcher has an OpenXR button map
 
 Each prepared game lives in the launcher's `Games` folder. Preparing a VR copy leaves the original installation and its saves in place. If Archolos is missing, its launch button stays disabled until you prepare a valid copy. **Repair VR copy** backs up an incomplete copy and transfers its VR saves into the replacement. Updating or uninstalling the launcher keeps its game copies, settings, and saves.
 
-## Default Quest Touch controls
+## Default Meta Quest 3 controls
 
-![Diagram of the default Quest Touch controller bindings](assets/quest-touch-controls.png)
+![Diagram of the default Meta Quest 3 Touch Plus controller bindings](assets/quest-touch-controls.png)
+
+Controller illustrations from [Meta Quest Hardware Art](https://developers.meta.com/vr/downloads/package/oculus-controller-art/).
 
 | Input | Default action |
 | --- | --- |
