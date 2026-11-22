@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/gothic-ii-vr-title.png" alt="Gothic II — Night of the Raven VR" width="750">
+  <img src="assets/gothic-ii-vr-cover.png" alt="Gothic II: Night of the Raven VR cover featuring a raven at a moonlit harbor" width="850">
 </p>
 
 # Gothic II Gold VR
