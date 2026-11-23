@@ -37,11 +37,15 @@ The reference controllers are Meta Quest 3 Touch Plus. The launcher has an OpenX
 
 ## Installation
 
-1. Install Gothic II Gold or Archolos through Steam or GOG. Then download and run **`Setup.exe`** from [Releases](https://github.com/PeCOS2k5/Gothic2GoldVR/releases) and choose a destination with room for the VR copies.
+1. Install Gothic II Gold or Archolos through Steam or GOG. Then download and run the Windows installer from the [latest release](https://github.com/PeCOS2k5/Gothic2GoldVR/releases/latest) and choose a destination with room for the VR copies.
 2. Click **Install**. Setup detects the installed games, creates their VR copies in `Games`, and downloads and installs the required patches. Approve the Windows prompt for Union if shown. If detection misses your game, use **Locate installed game** to select its folder containing `Data` and `system`.
 3. When the launcher opens, select your campaign and **VR Runtime**, then click **Save and Launch**. In the game, look straight ahead and click the **left thumbstick** to recenter.
 
 The original games and their saves stay in place. If you install another campaign later, select it in the launcher and choose **Setup → Prepare VR copy** to copy it and install its requirements. **Repair VR copy** backs up an incomplete copy and transfers its VR saves. Updating or uninstalling the launcher keeps its game copies, settings, and saves. The **Mods** page includes download links for the optional add-ons.
+
+### Upgrade from 1.0
+
+Close the launcher and the game. Run the 1.01 installer in your existing Gothic II VR installation folder and then click **Save and Launch** in the launcher. Your VR game copies, saves, mods and settings are preserved. [Full upgrade instructions](https://github.com/PeCOS2k5/Gothic2GoldVR/releases/tag/v1.01)
 
 ## Default Meta Quest 3 controls
 
@@ -78,6 +82,6 @@ The radial opens on **Quick slots**. Press **B** for **Actions**, where you can 
 
 **Gothic II Gold VR** was created and is maintained by **PeCOS2k5**. Gothic II and Night of the Raven belong to their respective rights holders. Archolos is the work of The Chronicles of Myrtana Team. Thanks to the authors of Union, GD3D11, OpenXR and the optional plugins.
 
-This repository is the official download page for the mod. The release asset is `Setup.exe`. The project source is private. The installer includes notices for the OpenXR loader.
+This repository is the official download page for the mod. The Windows installer is listed under **Assets** on the latest release. The project source is private. The installer includes notices for the OpenXR loader.
 
 Copyright © 2026 PeCOS2k5. All rights reserved for Gothic II Gold VR code and original project assets, subject to applicable law and third-party licenses. Please link here when sharing the project. Rehosting or distributing modified builds, or presenting them as your own work or as official releases, requires permission from the maintainer.
